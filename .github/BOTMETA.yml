@@ -27814,6 +27814,16 @@ files:
     migrated_to: cisco.ucs
   test/integration/targets/ucs_vlans/tasks/main.yml:
     migrated_to: cisco.ucs
+  lib/ansible/modules/net_tools/netbox/netbox_device.py:
+    migrated_to: netbox_community.ansible_modules
+  lib/ansible/modules/net_tools/netbox/netbox_ip_address.py:
+    migrated_to: netbox_community.ansible_modules
+  lib/ansible/modules/net_tools/netbox/netbox_prefix.py:
+    migrated_to: netbox_community.ansible_modules
+  lib/ansible/modules/net_tools/netbox/netbox_site.py:
+    migrated_to: netbox_community.ansible_modules
+  lib/ansible/module_utils/net_tools/netbox/netbox_utils.py:
+    migrated_to: netbox_community.ansible_modules
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
