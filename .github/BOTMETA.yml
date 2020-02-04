@@ -2387,27 +2387,27 @@ files:
   lib/ansible/module_utils/network/nxos/utils/utils.py:
     migrated_to: sensu.sensu_go
   test/units/compat/__init__.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/compat/mock.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/compat/unittest.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/compat/builtins.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/loader.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/path.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/__init__.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/vault_helper.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/procenv.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/mock/yaml_helper.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/modules/utils.py:
-    migrated_to: community.general
+    migrated_to: openstack.cloud
   test/units/module_utils/conftest.py:
     migrated_to: sensu.sensu_go
   test/units/module_utils/network/common/test_utils.py:
@@ -20048,6 +20048,12 @@ files:
     migrated_to: community.grafana
   lib/ansible/plugins/httpapi/splunk.py:
     migrated_to: splunk.enterprise_security
+  test/units/modules/cloud/openstack/test_os_server.py:
+    migrated_to: openstack.cloud
+  test/units/modules/cloud/openstack/__init__.py:
+    migrated_to: openstack.cloud
+  test/units/plugins/inventory/test_openstack.py:
+    migrated_to: openstack.cloud
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
