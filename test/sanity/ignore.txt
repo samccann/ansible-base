@@ -189,12 +189,8 @@ lib/ansible/module_utils/k8s/raw.py metaclass-boilerplate
 lib/ansible/module_utils/net_tools/netbox/netbox_utils.py future-import-boilerplate
 lib/ansible/module_utils/net_tools/nios/api.py future-import-boilerplate
 lib/ansible/module_utils/net_tools/nios/api.py metaclass-boilerplate
-lib/ansible/module_utils/netapp.py future-import-boilerplate
-lib/ansible/module_utils/netapp.py metaclass-boilerplate
 lib/ansible/module_utils/netapp_elementsw_module.py future-import-boilerplate
 lib/ansible/module_utils/netapp_elementsw_module.py metaclass-boilerplate
-lib/ansible/module_utils/netapp_module.py future-import-boilerplate
-lib/ansible/module_utils/netapp_module.py metaclass-boilerplate
 lib/ansible/module_utils/network/checkpoint/checkpoint.py metaclass-boilerplate
 lib/ansible/module_utils/network/common/config.py future-import-boilerplate
 lib/ansible/module_utils/network/common/config.py metaclass-boilerplate
@@ -2253,8 +2249,6 @@ lib/ansible/plugins/doc_fragments/ios.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/ios.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/iosxr.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/iosxr.py metaclass-boilerplate
-lib/ansible/plugins/doc_fragments/netapp.py future-import-boilerplate
-lib/ansible/plugins/doc_fragments/netapp.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/netconf.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/netconf.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/return_common.py future-import-boilerplate
@@ -2450,7 +2444,6 @@ test/units/module_utils/postgresql/test_postgres.py future-import-boilerplate
 test/units/module_utils/postgresql/test_postgres.py metaclass-boilerplate
 test/units/module_utils/test_distro.py future-import-boilerplate
 test/units/module_utils/test_distro.py metaclass-boilerplate
-test/units/module_utils/test_netapp.py future-import-boilerplate
 test/units/module_utils/test_text.py future-import-boilerplate
 test/units/module_utils/urls/test_Request.py replace-urlopen
 test/units/module_utils/urls/test_fetch_url.py replace-urlopen
