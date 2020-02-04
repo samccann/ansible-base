@@ -2149,6 +2149,40 @@ files:
     notified: mattclay
   shippable.yml:
     notified: mattclay
+  lib/ansible/module_utils/network/common/utils.py:
+    migrated_to: sensu.sensu_go
+  lib/ansible/module_utils/network/exos/utils/utils.py:
+    migrated_to: sensu.sensu_go
+  lib/ansible/module_utils/network/nxos/utils/utils.py:
+    migrated_to: sensu.sensu_go
+  test/units/compat/__init__.py:
+    migrated_to: sensu.sensu_go
+  test/units/compat/mock.py:
+    migrated_to: sensu.sensu_go
+  test/units/compat/unittest.py:
+    migrated_to: sensu.sensu_go
+  test/units/compat/builtins.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/loader.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/path.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/__init__.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/vault_helper.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/procenv.py:
+    migrated_to: sensu.sensu_go
+  test/units/mock/yaml_helper.py:
+    migrated_to: sensu.sensu_go
+  test/units/modules/utils.py:
+    migrated_to: sensu.sensu_go
+  test/units/module_utils/conftest.py:
+    migrated_to: sensu.sensu_go
+  test/units/module_utils/network/common/test_utils.py:
+    migrated_to: sensu.sensu_go
+  test/units/module_utils/network/common/__init__.py:
+    migrated_to: sensu.sensu_go
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
