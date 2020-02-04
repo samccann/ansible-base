@@ -288,8 +288,6 @@ lib/ansible/module_utils/network/common/network.py future-import-boilerplate
 lib/ansible/module_utils/network/common/network.py metaclass-boilerplate
 lib/ansible/module_utils/network/common/parsing.py future-import-boilerplate
 lib/ansible/module_utils/network/common/parsing.py metaclass-boilerplate
-lib/ansible/module_utils/network/common/utils.py future-import-boilerplate
-lib/ansible/module_utils/network/common/utils.py metaclass-boilerplate
 lib/ansible/module_utils/network/dellos10/dellos10.py future-import-boilerplate
 lib/ansible/module_utils/network/dellos10/dellos10.py metaclass-boilerplate
 lib/ansible/module_utils/network/dellos6/dellos6.py future-import-boilerplate
@@ -401,8 +399,6 @@ lib/ansible/module_utils/network/nxos/facts/legacy/base.py future-import-boilerp
 lib/ansible/module_utils/network/nxos/facts/legacy/base.py metaclass-boilerplate
 lib/ansible/module_utils/network/nxos/nxos.py future-import-boilerplate
 lib/ansible/module_utils/network/nxos/nxos.py metaclass-boilerplate
-lib/ansible/module_utils/network/nxos/utils/utils.py future-import-boilerplate
-lib/ansible/module_utils/network/nxos/utils/utils.py metaclass-boilerplate
 lib/ansible/module_utils/network/onyx/onyx.py future-import-boilerplate
 lib/ansible/module_utils/network/onyx/onyx.py metaclass-boilerplate
 lib/ansible/module_utils/network/ordnance/ordnance.py future-import-boilerplate
@@ -8077,8 +8073,6 @@ test/units/module_utils/cloud/test_backoff.py future-import-boilerplate
 test/units/module_utils/cloud/test_backoff.py metaclass-boilerplate
 test/units/module_utils/common/test_dict_transformations.py future-import-boilerplate
 test/units/module_utils/common/test_dict_transformations.py metaclass-boilerplate
-test/units/module_utils/conftest.py future-import-boilerplate
-test/units/module_utils/conftest.py metaclass-boilerplate
 test/units/module_utils/facts/base.py future-import-boilerplate
 test/units/module_utils/facts/hardware/test_sunos_get_uptime_facts.py future-import-boilerplate
 test/units/module_utils/facts/hardware/test_sunos_get_uptime_facts.py metaclass-boilerplate
