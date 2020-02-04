@@ -20046,6 +20046,8 @@ files:
     migrated_to: community.grafana
   test/integration/targets/setup_grafana/tasks/setup.yml:
     migrated_to: community.grafana
+  lib/ansible/plugins/httpapi/splunk.py:
+    migrated_to: splunk.enterprise_security
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
