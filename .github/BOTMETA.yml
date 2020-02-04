@@ -24184,6 +24184,8 @@ files:
     migrated_to: purestorage.flashblade
   lib/ansible/modules/storage/purestorage/purefb_subnet.py:
     migrated_to: purestorage.flashblade
+  lib/ansible/plugins/httpapi/qradar.py:
+    migrated_to: ibm.qradar
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
