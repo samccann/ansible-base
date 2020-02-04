@@ -1883,6 +1883,7 @@ files:
   $plugins/connection/persistent.py:
     maintainers: $team_networking
     labels: networking
+    migrated_to: ansible.netcommon
   $plugins/connection/podman.py:
     support: community
     maintainers: TomasTomecek
@@ -1962,6 +1963,7 @@ files:
     support: network
     maintainers: $team_networking
     labels: networking
+    migrated_to: ansible.netcommon
   $plugins/filter/urlsplit.py:
     support: core
   $plugins/httpapi:
@@ -2392,27 +2394,27 @@ files:
   lib/ansible/module_utils/network/nxos/utils/utils.py:
     migrated_to: sensu.sensu_go
   test/units/compat/__init__.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/compat/mock.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/compat/unittest.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/compat/builtins.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/loader.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/path.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/__init__.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/vault_helper.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/procenv.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/mock/yaml_helper.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/modules/utils.py:
-    migrated_to: netapp.ontap
+    migrated_to: ansible.netcommon
   test/units/module_utils/conftest.py:
     migrated_to: sensu.sensu_go
   test/units/module_utils/network/common/test_utils.py:
@@ -21173,6 +21175,100 @@ files:
     migrated_to: cyberark.bizdev
   lib/ansible/modules/identity/cyberark/cyberark_user.py:
     migrated_to: cyberark.bizdev
+  lib/ansible/modules/network/cli/cli_command.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/cli/cli_config.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/files/net_get.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/files/net_put.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/interface/_net_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/interface/_net_linkagg.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/interface/_net_lldp_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/layer2/_net_l2_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/layer2/_net_vlan.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/layer3/_net_l3_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/layer3/_net_vrf.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/protocol/_net_lldp.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/restconf/restconf_config.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/restconf/restconf_get.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/routing/_net_static_route.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/system/_net_banner.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/system/_net_logging.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/system/_net_system.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/system/_net_user.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/modules/network/system/net_ping.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/connection/napalm.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/httpapi/restconf.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/cli_command.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/cli_config.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_banner.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_base.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_get.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_l2_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_l3_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_linkagg.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_lldp.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_lldp_interface.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_logging.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_ping.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_put.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_static_route.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_system.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_user.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_vlan.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/net_vrf.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/action/network.py:
+    migrated_to: ansible.netcommon
+  lib/ansible/plugins/become/enable.py:
+    migrated_to: ansible.netcommon
+  test/units/modules/network/cli/test_cli_config.py:
+    migrated_to: ansible.netcommon
+  test/units/modules/network/cli/__init__.py:
+    migrated_to: ansible.netcommon
+  test/units/modules/network/cli/cli_module.py:
+    migrated_to: ansible.netcommon
+  test/units/plugins/filter/test_network.py:
+    migrated_to: ansible.netcommon
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
