@@ -2346,6 +2346,7 @@ files:
   test/units/module_utils/test_netapp.py:
     maintainers: $team_netapp
     support: community
+    migrated_to: netapp.aws
   test/units/module_utils/hwc:
     maintainers: $team_huawei
   test/units/module_utils/acme: *id012
@@ -2389,27 +2390,27 @@ files:
   lib/ansible/module_utils/network/nxos/utils/utils.py:
     migrated_to: sensu.sensu_go
   test/units/compat/__init__.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/compat/mock.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/compat/unittest.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/compat/builtins.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/loader.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/path.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/__init__.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/vault_helper.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/procenv.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/mock/yaml_helper.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/modules/utils.py:
-    migrated_to: junipernetworks.junos
+    migrated_to: netapp.aws
   test/units/module_utils/conftest.py:
     migrated_to: sensu.sensu_go
   test/units/module_utils/network/common/test_utils.py:
@@ -20718,6 +20719,24 @@ files:
     migrated_to: junipernetworks.junos
   test/integration/targets/junos_l3_interfaces/meta/main.yaml:
     migrated_to: junipernetworks.junos
+  lib/ansible/modules/cloud/amazon/aws_netapp_cvs_active_directory.py:
+    migrated_to: netapp.aws
+  lib/ansible/modules/cloud/amazon/aws_netapp_cvs_pool.py:
+    migrated_to: netapp.aws
+  lib/ansible/modules/cloud/amazon/aws_netapp_cvs_snapshots.py:
+    migrated_to: netapp.aws
+  lib/ansible/module_utils/netapp.py:
+    migrated_to: netapp.aws
+  lib/ansible/module_utils/netapp_module.py:
+    migrated_to: netapp.aws
+  lib/ansible/plugins/doc_fragments/netapp.py:
+    migrated_to: netapp.aws
+  test/units/modules/cloud/amazon/test_aws_netapp_cvs_active_directory.py:
+    migrated_to: netapp.aws
+  test/units/modules/cloud/amazon/test_aws_netapp_cvs_pool.py:
+    migrated_to: netapp.aws
+  test/units/modules/cloud/amazon/test_aws_netapp_cvs_snapshots.py:
+    migrated_to: netapp.aws
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
