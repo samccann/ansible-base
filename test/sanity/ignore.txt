@@ -6311,7 +6311,6 @@ lib/ansible/modules/notification/sendgrid.py validate-modules:undocumented-param
 lib/ansible/modules/notification/slack.py validate-modules:doc-default-does-not-match-spec
 lib/ansible/modules/notification/slack.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/notification/slack.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/notification/snow_record_find.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/notification/syslogger.py validate-modules:parameter-type-not-in-doc
 lib/ansible/modules/notification/telegram.py validate-modules:parameter-type-not-in-doc
 lib/ansible/modules/notification/twilio.py validate-modules:doc-missing-type
