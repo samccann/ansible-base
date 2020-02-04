@@ -21169,6 +21169,10 @@ files:
     migrated_to: azure.azcollection
   test/integration/targets/azure_rm_virtualnetwork/meta/main.yml:
     migrated_to: azure.azcollection
+  lib/ansible/modules/identity/cyberark/cyberark_authentication.py:
+    migrated_to: cyberark.bizdev
+  lib/ansible/modules/identity/cyberark/cyberark_user.py:
+    migrated_to: cyberark.bizdev
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
