@@ -26055,6 +26055,94 @@ files:
     migrated_to: cisco.meraki
   test/integration/targets/meraki_vlan/tasks/main.yml:
     migrated_to: cisco.meraki
+  lib/ansible/modules/network/aci/mso_label.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_role.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp_epg.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp_epg_domain.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp_epg_staticleaf.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp_epg_staticport.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_anp_epg_subnet.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_bd.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_bd_l3out.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_bd_subnet.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_vrf.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_vrf_region.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_vrf_region_cidr.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_site_vrf_region_cidr_subnet.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_anp.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_anp_epg.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_anp_epg_contract.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_anp_epg_subnet.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_bd.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_bd_subnet.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_contract_filter.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_deploy.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_externalepg.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_filter_entry.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_l3out.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_schema_template_vrf.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_site.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_tenant.py:
+    migrated_to: cisco.mso
+  lib/ansible/modules/network/aci/mso_user.py:
+    migrated_to: cisco.mso
+  lib/ansible/module_utils/network/aci/mso.py:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_label/aliases:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_label/tasks/main.yml:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_role/aliases:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_role/tasks/main.yml:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_site/aliases:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_site/tasks/main.yml:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_tenant/aliases:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_tenant/tasks/main.yml:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_user/aliases:
+    migrated_to: cisco.mso
+  test/integration/targets/mso_user/tasks/main.yml:
+    migrated_to: cisco.mso
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
